@@ -1,0 +1,15 @@
+.howlong-container {
+	position: fixed;
+	top: 0;
+	right: 0;
+	height: 100%;
+	width: 11px;
+	background: #b5ff8d;
+	z-index: 1001;
+}
+
+.howlong-comments {
+	background: #ff8d8d;
+	position: absolute;
+	width: 30px;
+}

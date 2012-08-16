@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Where's the Beef",
+  "version": "0.1",
+  "description": "Helps you skip the filler and read the beef.",
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "css": ["wheres-the-beef.css"],
+      "js": ["selectors.js","wheresTheBeef.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
